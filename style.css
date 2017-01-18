@@ -2,6 +2,11 @@ header {
     font-family: 'Bitter', serif;
     font-size: 35px;
     text-align: center;
+    background: url(tiles.PNG);
+    background-size: contain;
+    color: blue;
+    text-shadow: 1px 1px red;
+    
 }
 
 p {
@@ -29,9 +34,7 @@ li a { /*applys all values to links or "headers" in nav bar*/
     padding: 7px 15px; /*spaing inbetween links*/
 }
 
-
-
-li a:hover:not(.active) {
+li a:hover:not(.active) { /*shading when the mouse hovers*/
     background-color: lightgray;
     color: black;
 }
