@@ -1,6 +1,6 @@
 header {
-    font-family: 'Bitter', serif;
-    font-size: 35px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 70px;
     text-align: center;
     background: url(tiles.PNG);
     background-size: contain;
@@ -25,7 +25,7 @@ p {
     padding: 0; /*removes white space left of "home"*/
     border: 1px #a81b2f solid; /*adds a border to the nav bar*/
     border-radius: 5px; /*adds rounded edges*/
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
 }
 /*styling the list items*/
