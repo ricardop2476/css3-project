@@ -63,6 +63,14 @@ p {
     font-size: 13.5px;
 }
 
+#quote {
+    font-size: 13.5px;
+    border-left: 6px solid red;
+    background-color: #D4D4D4;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: italic;
+}
+
 ::selection {
     color: black; 
     background: #EF1F36;
