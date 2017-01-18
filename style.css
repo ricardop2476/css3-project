@@ -43,31 +43,3 @@ p {
 #navMain ul { /*hides the dropdown menu*/
     display: none;
 }
-
-#navMain ul { /*values for the dropdown menu*/
-    display: none;
-    position: absolute;
-    list-style: none;
-    left: 0;
-    padding: 0;
-    margin: 0;
-    border-top: 1px black solid;
-    background: lightgray;
-}
-
-#navMain ul li a {
-    color: blue;
-    text-decoration: none;
-    display: block;
-    padding: 5px 5px;
-    border-bottom: 1px solid #d3d9da;
-    border-left: 1px solid #d3d9da;
-    border-right: 1px solid #d3d9da;
-    font-size: 10px;
-}
-
-#navMain li:hover ul {
-    display: block;
-    top: 39px;
-    min-width: 200px;
-}
