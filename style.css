@@ -8,3 +8,66 @@ p {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
+
+#navMain {
+    list-style: none;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 1px #a81b2f solid;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    background: white;
+}
+
+#navMain > li {
+    float: left;
+    position: relative;
+    border-right: 1px solid #9b2838;
+}
+
+#navMain > li > a {
+    color: black;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid gray;
+    padding: 11px 18px;
+}
+
+#navMain .currentPage a {
+    background: rgba(99, 20, 32, 0.25);
+}
+
+#navMain ul {
+    display: none;
+}
+
+#navMain ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    border-top: 1px black;
+    background: lightgray;
+}
+
+#navMain ul li a {
+    color: blue;
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+    border-bottom: 1px solid #d3d9da;
+    border-left: 1px solid #d3d9da;
+    border-right: 1px solid #d3d9da;
+    font-size: 10px;
+}
+
+#navMain li:hover ul {
+    display: block;
+    top: 39px;
+    min-width: 200px;
+}
