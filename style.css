@@ -10,48 +10,48 @@ p {
 }
 
 #navMain {
-    list-style: none;
+    list-style: none; /*removes listing style traits*/
     float: left;
-    width: 100%;
+    width: 100%; /*max width of the window*/
     margin: 0;
-    padding: 0;
-    border: 1px #a81b2f solid;
-    border-radius: 5px;
+    padding: 0; /*removes white space left of "home"*/
+    border: 1px #a81b2f solid; /*adds a border to the nav bar*/
+    border-radius: 5px; /*adds rounded edges*/
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     background: white;
 }
-
-#navMain > li {
+/*styling the list items*/
+#navMain > li { /*apply all css values to only present sections, not the drop down menu*/
     float: left;
-    position: relative;
-    border-right: 1px solid #9b2838;
+    position: relative; /*relative to eachother so that they can be next to eachother*/
+    border-right: 1px solid black; /*adds visible divider*/
 }
 
-#navMain > li > a {
-    color: black;
-    text-decoration: none;
+#navMain > li > a { /*applys all values to links or headers in nav bar*/
+    color: black; 
+    text-decoration: none; /*removes traits that it possesses*/
     float: left;
     border-right: 1px solid gray;
-    padding: 11px 18px;
+    padding: 7px 15px; /*spaing inbetween links*/
 }
 
-#navMain .currentPage a {
-    background: rgba(99, 20, 32, 0.25);
+#navMain .currentPage a { /*makes the current page the user is on "highlighted" */
+    background: lightgray;
 }
 
-#navMain ul {
+#navMain ul { /*hides the dropdown menu*/
     display: none;
 }
 
-#navMain ul {
+#navMain ul { /*values for the dropdown menu*/
     display: none;
     position: absolute;
     list-style: none;
     left: 0;
     padding: 0;
     margin: 0;
-    border-top: 1px black;
+    border-top: 1px black solid;
     background: lightgray;
 }
 
