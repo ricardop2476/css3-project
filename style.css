@@ -19,16 +19,9 @@ p {
     border-radius: 5px; /*adds rounded edges*/
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    background: white;
 }
 /*styling the list items*/
-#navMain > li { /*apply all css values to only present sections, not the drop down menu*/
-    float: left;
-    position: relative; /*relative to eachother so that they can be next to eachother*/
-    border-right: 1px solid black; /*adds visible divider*/
-}
-
-#navMain > li > a { /*applys all values to links or headers in nav bar*/
+li a { /*applys all values to links or "headers" in nav bar*/
     color: black; 
     text-decoration: none; /*removes traits that it possesses*/
     float: left;
@@ -36,10 +29,9 @@ p {
     padding: 7px 15px; /*spaing inbetween links*/
 }
 
-#navMain .currentPage a { /*makes the current page the user is on "highlighted" */
-    background: lightgray;
-}
 
-#navMain ul { /*hides the dropdown menu*/
-    display: none;
+
+li a:hover:not(.active) {
+    background-color: lightgray;
+    color: black;
 }
