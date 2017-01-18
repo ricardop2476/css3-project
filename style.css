@@ -23,14 +23,17 @@ p {
     width: 100%; /*max width of the window*/
     margin: 0;
     padding: 0; /*removes white space left of "home"*/
-    border: 1px #a81b2f solid; /*adds a border to the nav bar*/
-    border-radius: 5px; /*adds rounded edges*/
+    border: 1px #FFFFFF solid; /*adds a border to the nav bar*/
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
+    background: black;
+    border-top-color: white;
+    border-top-width: 10px;
+     
 }
 /*styling the list items*/
 li a { /*applys all values to links or "headers" in nav bar*/
-    color: black; 
+    color: white; 
     text-decoration: none; /*removes traits that it possesses*/
     float: left;
     border-right: 1px solid #a81b2f;
@@ -38,6 +41,6 @@ li a { /*applys all values to links or "headers" in nav bar*/
 }
 
 li a:hover:not(.active) { /*shading when the mouse hovers*/
-    background-color: lightgray;
+    background-color: #EF1F36;
     color: black;
 }
