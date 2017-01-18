@@ -33,7 +33,7 @@ li a { /*applys all values to links or "headers" in nav bar*/
     color: black; 
     text-decoration: none; /*removes traits that it possesses*/
     float: left;
-    border-right: 1px solid gray;
+    border-right: 1px solid #a81b2f;
     padding: 7px 15px; /*spaing inbetween links*/
 }
 
