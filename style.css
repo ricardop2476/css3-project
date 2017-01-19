@@ -75,3 +75,8 @@ p {
     color: black; 
     background: #EF1F36;
 }
+
+video {
+    display: block;
+    margin: 0 auto;
+}
