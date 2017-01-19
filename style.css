@@ -2,10 +2,10 @@ header {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 70px;
     text-align: center;
-    background: url(tiles.PNG);
-    background-size: contain;
+    background: url(tiles.PNG); /*one image*/
+    background-size: contain; /*repeat it over and over*/
     color: #EF1F36;
-    text-shadow:
+    text-shadow: /*stroke for the header*/
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
@@ -45,7 +45,7 @@ li a:hover:not(.active) { /*shading when the mouse hovers*/
     color: black;
 }
 
-h2 {
+h2 { /*font/size/color/style for h2*/
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 30px;
     text-align: center;
@@ -63,7 +63,7 @@ p {
     font-size: 13.5px;
 }
 
-#quote {
+#quote { /*style for quotes in paragraphs*/
     font-size: 13.5px;
     border-left: 6px solid red;
     background-color: #D4D4D4;
@@ -71,16 +71,16 @@ p {
     font-style: italic;
 }
 
-::selection {
+::selection { /*highlight/select text makes it red with black text*/
     color: black; 
     background: #EF1F36;
 }
 
-video {
+video { /*centers the video*/
     display: block;
     margin: 0 auto;
 }
 
-#about {
+#about { /*credit link for video centered*/
     text-align: center;
 }
