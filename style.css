@@ -3,45 +3,60 @@ header {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 70px;
     text-align: center;
-    background: url(tiles.PNG); /*one image*/
-    background-size: contain; /*repeat it over and over*/
-    color: #EF1F36; /*red*/
+    background: url(tiles.PNG);
+    /*one image*/
+    background-size: contain;
+    /*repeat it over and over*/
+    color: #EF1F36;
+    /*red*/
     text-shadow: /*black stroke for the header*/
     -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+
 /*properties for navigation bar*/
 #navMain {
-    list-style: none; /*removes listing style traits*/
+    list-style: none;
+    /*removes listing style traits*/
     float: left;
-    width: 100%; /*max width of the window*/
+    width: 100%;
+    /*max width of the window*/
     margin: 0;
-    padding: 0; /*removes white space left of "home"*/
-    border: 1px #FFFFFF solid; /*adds a border to the nav bar*/
+    padding: 0;
+    /*removes white space left of "home"*/
+    border: 1px #FFFFFF solid;
+    /*adds a border to the nav bar*/
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
     background: black;
     border-top-color: white;
     border-top-width: 10px;
-     
-}
-/*styling the list items*/
-li a { /*applys all values to links or "headers" in nav bar*/
-    color: white; 
-    text-decoration: none; /*removes traits that it possesses*/
-    float: left;
-    border-right: 1px solid #a81b2f;
-    padding: 7px 15px; /*spaing inbetween links*/
 }
 
+
+/*styling the list items*/
+li a {
+    /*applys all values to links or "headers" in nav bar*/
+    color: white;
+    text-decoration: none;
+    /*removes traits that it possesses*/
+    float: left;
+    border-right: 1px solid #a81b2f;
+    padding: 7px 15px;
+    /*spaing inbetween links*/
+}
+
+
 /*red background on black text when user hovers*/
-li a:hover:not(.active) { /*shading when the mouse hovers*/
+li a:hover:not(.active) {
+    /*shading when the mouse hovers*/
     background-color: #EF1F36;
     color: black;
 }
 
+
 /*font/size/color/style for h2*/
-h2 { 
+h2 {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 30px;
     text-align: center;
@@ -49,11 +64,13 @@ h2 {
     text-shadow: 1.1px 1.1px black;
 }
 
+
 /*h3 font & size*/
 h3 {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
 }
+
 
 /*declare font for paragraphs*/
 p {
@@ -61,8 +78,9 @@ p {
     font-size: 13.5px;
 }
 
+
 /*style for quotes in paragraphs*/
-#quote { 
+#quote {
     font-size: 13.5px;
     border-left: 6px solid red;
     background-color: #D4D4D4;
@@ -71,22 +89,26 @@ p {
     font-style: italic;
 }
 
+
 /*highlight/select text makes it red with black text: NOT NAV BAR*/
-::selection { 
-    color: black; 
+::selection {
+    color: black;
     background: #EF1F36;
 }
 
+
 /*centers the video*/
-video { 
+video {
     display: block;
     margin: 0 auto;
 }
 
+
 /*credit link for video centered*/
-#about { 
+#about {
     text-align: center;
 }
+
 
 /*creates rotation for headers*/
 #rotate {
@@ -96,8 +118,14 @@ video {
     animation-iteration-count: 1;
     animation-timing-function: ease;
 }
+
+
 /*rotating Y axis 360 degrees*/
 @keyframes rotate {
-    from {transform:rotateY(0deg);}
-    to {transform:rotateY(360deg)}
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg)
+    }
 }
