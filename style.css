@@ -1,22 +1,16 @@
+/*"skateboarding" header on top of page*/
 header {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 70px;
     text-align: center;
     background: url(tiles.PNG); /*one image*/
     background-size: contain; /*repeat it over and over*/
-    color: #EF1F36;
-    text-shadow: /*stroke for the header*/
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    color: #EF1F36; /*red*/
+    text-shadow: /*black stroke for the header*/
+    -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-p {
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-}
-
+/*properties for navigation bar*/
 #navMain {
     list-style: none; /*removes listing style traits*/
     float: left;
@@ -40,12 +34,14 @@ li a { /*applys all values to links or "headers" in nav bar*/
     padding: 7px 15px; /*spaing inbetween links*/
 }
 
+/*red background on black text when user hovers*/
 li a:hover:not(.active) { /*shading when the mouse hovers*/
     background-color: #EF1F36;
     color: black;
 }
 
-h2 { /*font/size/color/style for h2*/
+/*font/size/color/style for h2*/
+h2 { 
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 30px;
     text-align: center;
@@ -53,17 +49,20 @@ h2 { /*font/size/color/style for h2*/
     text-shadow: 1.1px 1.1px black;
 }
 
+/*h3 font & size*/
 h3 {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 20px;
 }
 
+/*declare font for paragraphs*/
 p {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 13.5px;
 }
 
-#quote { /*style for quotes in paragraphs*/
+/*style for quotes in paragraphs*/
+#quote { 
     font-size: 13.5px;
     border-left: 6px solid red;
     background-color: #D4D4D4;
@@ -72,20 +71,24 @@ p {
     font-style: italic;
 }
 
-::selection { /*highlight/select text makes it red with black text*/
+/*highlight/select text makes it red with black text: NOT NAV BAR*/
+::selection { 
     color: black; 
     background: #EF1F36;
 }
 
-video { /*centers the video*/
+/*centers the video*/
+video { 
     display: block;
     margin: 0 auto;
 }
 
-#about { /*credit link for video centered*/
+/*credit link for video centered*/
+#about { 
     text-align: center;
 }
 
+/*creates rotation for headers*/
 #rotate {
     animation-name: rotate;
     animation-duration: 3s;
@@ -93,7 +96,7 @@ video { /*centers the video*/
     animation-iteration-count: 1;
     animation-timing-function: ease;
 }
-
+/*rotating Y axis 360 degrees*/
 @keyframes rotate {
     from {transform:rotateY(0deg);}
     to {transform:rotateY(360deg)}
